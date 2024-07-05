@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POKEMON GAME</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-free-6.5.2-web/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    </head>
+</head>
+</head>
+
+<body>
+    <div id="container">
+        <!-- PANTALLA INICIAL -->
+        <div id="pantalla1" class="screen visible">
+
+            <div>
+                <i class="fa-solid fa-arrow-left" style="color: azure; margin-right: 280px; margin-left: 20px; background-color: rgb(93, 93, 93); border-radius: 20%; padding: 3%;"></i>
+                <img style="transform: rotate(5deg); margin-top: 5px;" src="perfil.png" alt="">
+            </div>
+
+            <div class="pantalla1-1">
+                <div class="pantalla1-2">
+                    <h2 class="select-parrafo">Select your <br> <strong>Pokemon</strong></h2>
+                    <img src="logo.png" alt="" style="filter: invert(0); ">
+                </div>
+
+                <div class="pantalla1-3">
+                    <img onclick="click1()" style="margin-left: 170px; width: 250px;" src="pokemon1.png" alt="">
+                    <img onclick="click1()" style="margin-left: 100px; margin-top: -180px; margin-bottom: -180px; z-index: 2;" src="pokemon2.png" alt="">
+                    <img onclick="click1()" style="margin-left: 170px; width: 250px; z-index: 1;" src="pokemon3.png" alt="">
+
+                    <div class="pantalla1-3-1">
+                        <h2 class="select-parrafo2">12 pokemons <br> in your <br>Pokedex</h2>
+                    </div>  
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- PANTALLA DE JUGADOR ESCOGIDO -->
+        <div id="pantalla2" class="screen">
+            <div>
+                <i onclick="click1()" class="fa-solid fa-arrow-left" style="color: azure; margin-right: 280px; margin-left: 20px; background-color: rgb(93, 93, 93); border-radius: 20%; padding: 3%;"></i>
+                <img style="transform: rotate(5deg); margin-top: 5px;" src="perfil.png" alt="">
+            </div>
+
+            <div>
+                <img style="position: fixed;" src="fondochispas.png" alt="">
+                <img style="margin-top: 50px; margin-left: 20px;" src="pokemon2grande.png" alt="">
+            </div>
+
+            <div class="pantalla2-1">
+                <img class="charizard1" src="Charizard.png" alt="">
+                <h2 class="charizard2">Charizard</h2>
+            </div>
+
+            <div style="margin-top: 24%;">
+                    <img style="transform: rotate(6deg); margin-left: 175px;" src="Frame 3 (1).png" alt="">
+            </div>
+
+            <div class="pantalla2-3">
+                <p>Charizard is known for its dragon-like appearance, with a large wingspan and a long, pointed tail.  He is capable of using powerful Fire-type attacks as well as Flying-type moves.</p>
+                <button>View Status</button>
+            </div>
+
+            <div style="display: flex;">
+                <img onclick="click1()" style="margin-right: 70px;" src="flechaizq.png" alt="">
+
+                <div class="pantalla2-4">
+                    <img style="margin-top: 30px;" src="swipeup.png" alt="">
+                    <h3>Swipe up to select</h3>
+                </div>
+
+                <img onclick="click2()" style="margin-left: 60px;" src="flechaderecha.png" alt="">
+            </div> 
+        </div>
+
+
+
+        <!-- PANTALLA DE BATALLA FINAL -->
+        <div id="pantalla3" class="screen">
+            <div style="display: flex;">
+                <i onclick="click3()" class="fa-solid fa-arrow-left" style="color: azure; background-color: rgb(93, 93, 93); border-radius: 20%; padding: 1%; width: 30px; height: 30px; margin-top: 15px; margin-left: 20px; margin-right: 100px;"></i>
+                <h1 class="pantalla3-1">Battleground</h1>
+            </div>
+
+            <div>
+                <div class="pantalla3-2">
+                    <img style="position: absolute; top: 0%; margin-top: 120px; width: 180px;" src="pokemon3grande.png" alt="">
+                    <img src="fondoazul.png" alt="">
+
+                    <h3 class="vs">VS</h3>
+
+                    <div style="position: relative;">
+                        <img style="position: absolute; margin-top: 80px; width: 270px; left: -60px; z-index: 2;" src="pokemon4grande.png" alt="">
+                        <img style="left: 0%; margin-right: 200px; position: fixed; margin-left: 126px; z-index: 1;" src="fondonaranja.png" alt="">
+                    </div>
+                </div>
+
+                <div class="pantalla3-3">
+                    <img style="margin-left: 20px;" src="perfil2.png" alt="">
+                    <h3 style="margin-right: 200px; margin-left: 15px;">Player 1</h3>
+                    <h3><strong>You</strong></h3>
+                    <img style="margin-left: 15px;" src="perfil3.png" alt="">
+                </div>
+               
+                <div style="display: flex; position: relative;">
+                    <img style="transform: rotate(5deg); position: absolute; top: -50px; margin-left: -40px;" src="barraazul.png" alt="">
+                    <img style="transform: rotate(5deg); position: absolute; top: -50px; margin-left: 160px;" src="barranaranja.png" alt="">
+                </div>
+
+                <div>
+                    <img style="transform: rotate(5deg); margin-top: 50px;" src="Line 1.png" alt="">
+                </div>
+
+                <div class="attack">
+                    <h2>Choose your Attack</h2>
+                </div>
+            
+            </div>
+
+            <div>
+                <div style="display: flex; margin-left: 10px;">
+                    <img style="transform: rotate(6deg); margin-top: 15px; padding-top: 15px;" src="poke1.png" alt="">
+                    <img style="transform: rotate(5deg);" src="poke2.png" alt="">
+                </div>
+                <div style="display: flex; margin-left: 10px;">
+                    <img style="transform: rotate(5deg);" src="poke3.png" alt="">
+                    <img style="transform: rotate(5deg);" src="poke4.png" alt="">
+                </div>
+            </div>    
+        </div>
+
+
+    </div>
+
+
+    <script>
+
+        function click1() {
+            var pantalla1 = document.getElementById('pantalla1');
+            var pantalla2 = document.getElementById('pantalla2');
+
+            if (pantalla1.classList.contains('visible')) {
+                pantalla1.classList.remove('visible');
+                pantalla2.classList.add('visible');
+
+            } else {
+                pantalla1.classList.add('visible');
+                pantalla2.classList.remove('visible');
+            }
+        }
+
+        function click2() {
+            var pantalla2 = document.getElementById('pantalla2');
+            var pantalla3 = document.getElementById('pantalla3');
+
+            if (pantalla2.classList.contains('visible')) {
+                pantalla2.classList.remove('visible');
+                pantalla3.classList.add('visible');
+
+            } else {
+                pantalla2.classList.add('visible');
+                pantalla3.classList.remove('visible');
+            }
+        }
+
+        function click3() {
+            var pantalla3 = document.getElementById('pantalla3');
+            var pantalla2 = document.getElementById('pantalla2');
+
+            if (pantalla3.classList.contains('visible')) {
+                pantalla3.classList.remove('visible');
+                pantalla2.classList.add('visible');
+
+            } else {
+                pantalla3.classList.add('visible');
+                pantalla2.classList.remove('visible');
+            }
+        }
+
+    
+    </script>
+</body>
+
+</html>

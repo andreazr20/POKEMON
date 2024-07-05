@@ -1,0 +1,162 @@
+#container{
+    background-color: black;
+}
+.screen {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+.select-parrafo{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    margin-left: 20px;
+}
+
+.pantalla1-1{
+    display: flex;
+    position: absolute;
+}
+.pantalla1-2{
+    background-color: black;
+}
+
+.pantalla1-3{
+    position: fixed;
+    margin-top: 60px;
+}
+
+.select-parrafo2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: medium;
+    color: white;
+    margin-left: 50px;
+    width: 200px;
+    padding-bottom: 40px;
+}
+.pantalla1-3-1{
+    background-color: black;
+}
+
+/* PANTALLA 2 */
+
+.charizard1{
+    margin-top: 30px;
+    position: fixed;
+}
+.charizard2{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25px;
+    margin-left: 35%;
+    position: absolute;
+    margin-top: 12%;
+}
+
+.pantalla2-2{
+    background-color: rgb(240, 227, 201);
+    display: flex;
+    width: 80px;
+    border-radius: 18%;
+    margin-left: 43%;
+    height: 25px;
+    border: solid 3px rgb(255, 136, 0);
+}
+
+.pantalla2-2 h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    color: rgb(255, 136, 0);
+    margin-left: 12px;
+}
+.pantalla2-3{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+}
+.pantalla2-3 button{
+    background-color: black;
+    text-decoration: underline solid 1px orange;
+    color: rgb(246, 193, 132);
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    margin-left: 3%;
+}
+
+/* pantalla con swipe up logo */
+.pantalla2-4 h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 10px;
+    color: white;  
+}
+/* pantalla batalla final */
+
+.vs{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 15px;
+    text-align: center;
+    position:absolute;
+    margin-left: 40%;
+    margin-top: 60%;
+    background-color: rgb(75, 73, 73);
+    border-radius: 12%;
+    height: 30px;
+    width: 40px;
+}
+.pantalla3-2{
+    position: relative;
+    display: flex;
+}
+.pantalla3-1{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+}
+.pantalla3-3{
+    display: flex;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    margin-top: -70px;
+}
+.pantalla3-3 h3{
+    font-size: 10px;
+    margin-top: 15px;
+}
+.attack h2{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal; 
+    margin-top: 10px;
+    margin-left: 135px;
+    font-size: 15px;
+}
+
+
